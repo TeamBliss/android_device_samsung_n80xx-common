@@ -35,7 +35,9 @@ RECOVERY_FSTAB_VERSION := 2
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/samsung/n80xx-common/configs/audio_policy.conf:system/etc/audio_policy.conf
+    device/samsung/n80xx-common/configs/audio_policy.conf:system/etc/audio_policy.conf \
+    device/samsung/n80xx-common/configs/audio_effects.conf:system/etc/audio_policy.conf \
+    device/samsung/n80xx-common/configs/audio_effects.conf:system/vendor/etc/audio_policy.conf        
 
 # Packages
 PRODUCT_PACKAGES += \
